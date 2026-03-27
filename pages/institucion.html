@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instituto Tecnológico Superior de Cintalapa | Conócenos</title>
+  <meta name="description" content="Información institucional: quiénes somos, misión, visión, valores, directorio y normatividad." />
+
+  <!-- CSS (separación clara HTML5/CSS3) -->
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/pages.css" />
+</head>
+
+<body>
+
+<div id="barraGobmx"></div>
+
+  <header class="site-header" role="banner">
+    <div class="container header-top">
+<div class="pleca" aria-label="Identidades institucionales">
+  <div class="container pleca-inner">
+    <a class="pleca-link pleca-link--sep" href="https://www.gob.mx/sep" target="_blank" rel="noopener">
+      <img src="../assets/img/pleca_educacion_dic24.png" alt="Educación - Secretaría de Educación Pública">
+    </a>
+
+    <a class="pleca-link pleca-link--chiapas" href="https://www.chiapas.gob.mx/" target="_blank" rel="noopener">
+      <img src="../assets/img/Coat_of_Arms_of_Chiapas_(2026).png" alt="Gobierno del Estado de Chiapas">
+    </a>
+
+    <a class="pleca-link pleca-link--tecnm" href="https://www.tecnm.mx/" target="_blank" rel="noopener">
+      <img src="../assets/img/TecNacional.png" alt="Tecnológico Nacional de México">
+    </a>
+
+    <a class="pleca-link pleca-link--instituto" href="index.html">
+      <img src="../assets/img/TecCinta.png" alt="Instituto Tecnológico Superior de Cintalapa">
+    </a>
+  </div>
+</div>
+
+      <button class="nav-toggle" type="button"
+  aria-label="Abrir menú"
+  aria-controls="site-menu"
+  aria-expanded="false">
+  <span class="nav-toggle__bar" aria-hidden="true"></span>
+  <span class="nav-toggle__bar" aria-hidden="true"></span>
+  <span class="nav-toggle__bar" aria-hidden="true"></span>
+</button>
+
+<div class="header-top-bar">
+  <div class="header-search">
+    <form class="search search--header" action="#" method="get" aria-label="Búsqueda en el sitio">
+      <label class="sr-only" for="q">Buscar</label>
+      <input id="q" name="q" type="search" placeholder="Buscar" />
+      <button class="search-btn" type="submit" aria-label="Buscar">
+        <span aria-hidden="true">🔍</span>
+      </button>
+    </form>
+  </div>
+
+  <div class="header-tools" aria-label="Accesibilidad y accesos rápidos">
+    <div class="header-icons" aria-label="Enlaces rápidos institucionales">
+      <a class="tool-icon"
+         href="PON_AQUI_LINK_TEAMS"
+         target="_blank"
+         rel="noopener"
+         title="Microsoft Teams"
+         aria-label="Microsoft Teams">
+        <img src="../assets/img/microsoft_teams.png" alt="Microsoft Teams" />
+      </a>
+
+      <a class="tool-icon"
+         href="PON_AQUI_LINK_CORREO"
+         target="_blank"
+         rel="noopener"
+         title="Correo institucional"
+         aria-label="Correo institucional">
+        <img src="../assets/img/correo-icono.png" alt="Correo institucional" />
+      </a>
+
+      <a class="tool-icon"
+         href="PON_AQUI_LINK_CALENDARIO"
+         target="_blank"
+         rel="noopener"
+         title="Calendario académico"
+         aria-label="Calendario académico">
+        <img src="../assets/img/calendario-icono.png" alt="Calendario académico" />
+      </a>
+    </div>
+
+    <div class="header-languages" aria-label="Selector de idioma">
+      <a class="lang-btn" href="#" data-lang="zh-CN" title="Mandarín" aria-label="Traducir a mandarín">
+        <img src="../assets/img/china-icono.png" alt="Mandarín" />
+      </a>
+
+      <a class="lang-btn" href="#" data-lang="en" title="Inglés" aria-label="Traducir a inglés">
+        <img src="../assets/img/usa-icono.png" alt="Inglés" />
+      </a>
+
+      <a class="lang-btn" href="#" data-lang="fr" title="Francés" aria-label="Traducir a francés">
+        <img src="../assets/img/francia-icono.png" alt="Francés" />
+      </a>
+
+      <a class="lang-btn" href="#" data-lang="es" title="Español" aria-label="Restablecer a español">
+        <img src="../assets/img/mexico-icono.png" alt="Español" />
+      </a>
+    </div>
+
+    <div class="header-accessibility" aria-label="Opciones de accesibilidad">
+      <button class="acc-btn acc-btn--icon" type="button" data-action="contrast" title="Invertir colores" aria-label="Invertir colores">
+        ◐
+      </button>
+      <button class="acc-btn" type="button" data-action="increase-font" title="Aumentar letra" aria-label="Aumentar letra">
+        A+
+      </button>
+      <button class="acc-btn" type="button" data-action="decrease-font" title="Disminuir letra" aria-label="Disminuir letra">
+        A-
+      </button>
+      <button class="acc-btn" type="button" data-action="reset-font" title="Restablecer tamaño" aria-label="Restablecer tamaño">
+        A
+      </button>
+    </div>
+
+    <div id="google_translate_element" class="translate-holder" aria-hidden="true"></div>
+  </div>
+</div>
+</div>
+
+<nav class="site-nav" aria-label="Menú principal" id="site-menu">
+  <div class="container nav-inner">
+    <ul class="nav-list nav-list--dropdown">
+      <li>
+        <a class="nav-link" href="../index.html" data-nav-link="inicio">Inicio</a>
+      </li>
+
+      <li class="nav-item">
+        <details class="nav-dd">
+          <summary class="nav-link nav-link--dd" data-nav="conocenos">Conócenos</summary>
+          <div class="nav-panel" role="menu">
+            <a role="menuitem" href="institucion.html#mv">Misión y visión</a>
+            <a role="menuitem" href="institucion.html#campus">Campus</a>
+            <a role="menuitem" href="institucion.html#historia">Historia</a>
+            <a role="menuitem" href="institucion.html#directorio">Directorio</a>
+            <a role="menuitem" href="institucion.html#organigrama">Organigrama</a>
+            <a role="menuitem" href="institucion.html#marco">Marco normativo</a>
+          </div>
+        </details>
+      </li>
+
+      <li class="nav-item">
+        <details class="nav-dd">
+          <summary class="nav-link nav-link--dd" data-nav="admision">Admisión</summary>
+          <div class="nav-panel" role="menu">
+            <a role="menuitem" href="aspirantes.html#requisitos">Requisitos</a>
+            <a role="menuitem" href="aspirantes.html#proceso">Proceso</a>
+            <a role="menuitem" href="aspirantes.html#fechas">Fechas</a>
+            <a role="menuitem" href="aspirantes.html#costos">Costos</a>
+            <a role="menuitem" href="aspirantes.html#preguntas">Preguntas frecuentes</a>
+          </div>
+        </details>
+      </li>
+
+      <li>
+        <a class="nav-link" href="oferta.html" data-nav-link="oferta">Oferta Educativa</a>
+      </li>
+
+      <li class="nav-item">
+        <details class="nav-dd">
+          <summary class="nav-link nav-link--dd" data-nav="docentes">Docentes</summary>
+          <div class="nav-panel" role="menu">
+            <a role="menuitem" href="docentes.html#avisos">Avisos</a>
+            <a role="menuitem" href="docentes.html#formatos">Formatos</a>
+            <a role="menuitem" href="docentes.html#directorio">Directorio</a>
+          </div>
+        </details>
+      </li>
+
+      <li class="nav-item">
+        <details class="nav-dd">
+          <summary class="nav-link nav-link--dd" data-nav="alumnos">Alumnos</summary>
+          <div class="nav-panel" role="menu">
+            <a role="menuitem" href="alumnos.html#tramites">Trámites</a>
+            <a role="menuitem" href="alumnos.html#servicios">Servicios escolares</a>
+            <a role="menuitem" href="alumnos.html#calendario">Calendario</a>
+            <a role="menuitem" href="alumnos.html#becas">Becas</a>
+          </div>
+        </details>
+      </li>
+
+      <li class="nav-item">
+        <details class="nav-dd">
+          <summary class="nav-link nav-link--dd" data-nav="vinculacion">Vinculación</summary>
+          <div class="nav-panel" role="menu">
+            <a role="menuitem" href="vinculacion.html#servicio">Servicio social</a>
+            <a role="menuitem" href="vinculacion.html#residencia">Residencia profesional</a>
+            <a role="menuitem" href="vinculacion.html#convenios">Convenios</a>
+            <a role="menuitem" href="vinculacion.html#bolsa">Bolsa de trabajo</a>
+          </div>
+        </details>
+      </li>
+
+      <li>
+        <a class="nav-link" href="contacto.html" data-nav-link="contacto">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  </header>
+
+  <main id="contenido" class="site-main" role="main">
+    <!-- Encabezado de página -->
+    <section class="page-hero" aria-label="Encabezado de la sección">
+      <div class="container page-hero-inner">
+        <div>
+          <p class="breadcrumbs">
+            <a href="../index.html">Inicio</a> <span aria-hidden="true">›</span> <span>Institución</span>
+          </p>
+          <h1>Institución</h1>
+          <p class="lead">
+            Conoce quiénes somos, nuestra misión, visión, valores y la información institucional de referencia.
+          </p>
+        </div>
+
+        <div class="page-hero-box" aria-hidden="true">
+          <span>Imagen institucional (pendiente)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiénes somos -->
+    <section class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>¿Quiénes somos?</h2>
+          <p>Descripción general del instituto. (Contenido provisional)</p>
+        </header>
+
+        <article class="card">
+          <p>
+            El Instituto Tecnológico Superior de Cintalapa es una institución comprometida con la formación profesional,
+            la calidad académica y el desarrollo regional. Esta sección se utilizará para presentar una reseña histórica,
+            objetivos institucionales y el impacto en la comunidad. (Texto de ejemplo)
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Misión / Visión / Valores -->
+    <section id="mv" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Misión, visión y valores</h2>
+          <p>Elementos que guían el quehacer institucional. (Contenido provisional)</p>
+        </header>
+
+          <article class="card">
+            <h3>Misión</h3>
+            <p>Texto breve de misión. (pendiente de definir/validar)</p>
+          </article>
+
+          <article class="card">
+            <h3>Visión</h3>
+            <p>Texto breve de visión. (pendiente de definir/validar)</p>
+          </article>
+
+          <article class="card">
+            <h3>Valores</h3>
+            <p>Responsabilidad, respeto, compromiso, excelencia. (editable)</p>
+          </article>
+        </div>
+    </section>
+
+<!-- Campus -->
+
+    <section id="campus" class="section section-alt">
+  <div class="container">
+    <header class="section-header">
+      <h2>Campus</h2>
+      <p>Instalaciones, servicios y ubicación del instituto. (Contenido provisional)</p>
+    </header>
+
+    <div class="grid cards-3">
+      <article class="card">
+        <h3>Instalaciones</h3>
+        <p>Aulas, laboratorios, áreas comunes y espacios de apoyo académico. (pendiente)</p>
+      </article>
+
+      <article class="card">
+        <h3>Servicios</h3>
+        <p>Biblioteca, servicios escolares, vinculación y atención a la comunidad. (pendiente)</p>
+      </article>
+
+      <article class="card">
+        <h3>Ubicación</h3>
+        <p>Dirección general, referencias y mapa. (pendiente)</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="historia" class="section">
+  <div class="container">
+    <header class="section-header">
+      <h2>Historia</h2>
+      <p>Reseña histórica y evolución institucional. (Contenido provisional)</p>
+    </header>
+
+    <article class="card">
+      <p>
+        Este apartado se utiliza para describir hitos relevantes, logros y etapas importantes del instituto.
+        (Texto de ejemplo)
+      </p>
+    </article>
+  </div>
+</section>
+
+    <!-- Estructura / Directorio -->
+    <section id="directorio" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Estructura y directorio</h2>
+          <p>Áreas principales y datos de contacto. (Contenido provisional)</p>
+        </header>
+
+        <div class="grid cards-2">
+          <article class="card card-wide">
+            <h3>Dirección / Subdirecciones</h3>
+            <p>Listado de áreas principales. (pendiente)</p>
+            <ul class="simple-list">
+              <li>Dirección General</li>
+              <li>Subdirección Académica</li>
+              <li>Subdirección Administrativa</li>
+              <li>Vinculación</li>
+            </ul>
+          </article>
+
+          <article class="card card-wide">
+            <h3>Directorio</h3>
+            <p>Correos y extensiones. (pendiente)</p>
+          <div class="directory" aria-label="Directorio institucional">
+            <article class="directory-item">
+              <h4>Servicios Escolares</h4>
+              <p class="directory-meta">correo@ejemplo.mx • Ext. 101</p>
+            </article>
+
+            <article class="directory-item">
+              <h4>Control Escolar</h4>
+              <p class="directory-meta">correo@ejemplo.mx • Ext. 102</p>
+            </article>
+
+            <article class="directory-item">
+              <h4>Vinculación</h4>
+              <p class="directory-meta">correo@ejemplo.mx • Ext. 103</p>
+            </article>
+          </div>
+
+          </article>
+        </div>
+      </div>
+    </section>
+
+<!-- Organigrama -->
+
+    <section id="organigrama" class="section section-alt">
+  <div class="container">
+    <header class="section-header">
+      <h2>Organigrama</h2>
+      <p>Representación general de áreas y jerarquías. (Contenido provisional)</p>
+    </header>
+
+    <div class="org-placeholder" aria-hidden="true">
+      <span>Organigrama (imagen/diagrama pendiente)</span>
+    </div>
+  </div>
+</section>
+
+    <!-- Normatividad / Transparencia -->
+    <section id="marco" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Normatividad y transparencia</h2>
+          <p>Documentos institucionales y marco de referencia. (Contenido provisional)</p>
+        </header>
+
+        <div class="grid cards-3">
+          <article class="card">
+            <h3>Reglamentos</h3>
+            <p>Enlace a reglamentos y lineamientos. (pendiente)</p>
+            <a class="card-link" href="#">Ver documentos</a>
+          </article>
+
+          <article class="card">
+            <h3>Convocatorias oficiales</h3>
+            <p>Publicaciones institucionales vigentes. (pendiente)</p>
+            <a class="card-link" href="#">Ver convocatorias</a>
+          </article>
+
+          <article class="card">
+            <h3>Avisos de privacidad</h3>
+            <p>Información de privacidad y uso de datos. (pendiente)</p>
+            <a class="card-link" href="#">Ver aviso</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+
+      <section>
+        <h2 class="footer-title">Contacto</h2>
+        <p><strong>Dirección</strong>
+                    <br>
+                    Carretera Panamericana Km. 995 C.P. 30400 Cintalapa, Chiapas. 
+                     C.P. 30400
+                    <br><strong>Contacto</strong>&nbsp;<br>
+                    Conmutador:  (968) 68 4 47 79 </p>
+        <p>Teléfono (pendiente) • Correo (pendiente)</p>
+      </section>
+
+            <section>
+        <h2 class="footer-title">Enlaces</h2>
+        <ul class="footer-links">
+          <li><a href="institucion.html">Institución</a></li>
+          <li><a href="oferta.html">Oferta educativa</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </section>
+
+      <section>
+               <aside class="footer-media" aria-label="Ubicación del Instituto en Google Maps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3822.1630320516947!2d-93.7435155!3d16.6687232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85eb57e1d27544a9%3A0x69e5f6be7f313284!2sInstituto%20Tecnol%C3%B3gico%20Superior%20de%20Cintalapa!5e0!3m2!1ses-419!2smx!4v1772683940090!5m2!1ses-419!2smx"
+   width="600"
+    height="450"
+     style="border:0;"
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <a class="footer-map-open"
+     href="https://maps.google.com/?cid=7630776441687323268&hl=es-419&gl=MX"
+     target="_blank" rel="noopener">
+    Abrir en Google Maps
+  </a>
+</aside>
+      </section>
+    </div>
+
+    <div class="container footer-bottom">
+      <small>© <span>2026</span> Instituto Tecnológico Superior de Cintalapa. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+      <div id="footer2-7"></div>
+      <aside class="social-widget" aria-label="Redes sociales institucionales">
+  <a
+    class="social-widget__item social-widget__item--facebook"
+    href="https://www.facebook.com/TecNMCintalapa"
+    target="_blank"
+    rel="noopener"
+    aria-label="Me gusta en Facebook"
+  >
+    <span class="social-widget__icon" aria-hidden="true">f</span>
+    <span class="social-widget__label">Me gusta en Facebook</span>
+  </a>
+
+  <a
+    class="social-widget__item social-widget__item--x"
+    href="https://x.com/TecNMCintalapa"
+    target="_blank"
+    rel="noopener"
+    aria-label="Síguenos en X"
+  >
+    <span class="social-widget__icon" aria-hidden="true">X</span>
+    <span class="social-widget__label">Síguenos en X</span>
+  </a>
+
+  <a
+    class="social-widget__item social-widget__item--youtube"
+    href="https://www.youtube.com/@tecnmcampuscintalapa2809"
+    target="_blank"
+    rel="noopener"
+    aria-label="Suscríbete en YouTube"
+  >
+    <span class="social-widget__icon" aria-hidden="true">▶</span>
+    <span class="social-widget__label">Suscríbete en YouTube</span>
+  </a>
+</aside>
+  <script
+  src="https://cdn.tecnm.mx/files/main/Framework/gobmx-integration.js"
+  data-tecnm-header="#barraGobmx"
+  data-tecnm-footer="#footer2-7"
+></script>
+<script src="https://framework-gb.cdn.gob.mx/gobmx.js" defer></script>
+  <script src="../public/js/main.js"></script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
