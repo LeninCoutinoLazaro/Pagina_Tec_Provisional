@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tecnológico Nacional de México Campus Cintalapa | Inicio</title>
+  <meta name="description" content="Sitio institucional: información, oferta educativa, aspirantes, alumnos, vinculación y contacto." />
+
+  <!-- CSS (separación clara HTML5/CSS3) -->
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+
+<body>
+
+    <!-- Barra superior (gubernamental + idioma) -->
+
+    <div id="barraGobmx"></div>
+
+  <header class="site-header" role="banner">
+    <div class="container header-top">
+<div class="pleca" aria-label="Identidades institucionales">
+  <div class="container pleca-inner">
+    <a class="pleca-link pleca-link--sep" href="https://www.gob.mx/sep" target="_blank" rel="noopener">
+      <img src="assets/img/pleca_educacion_dic24.png" alt="Educación - Secretaría de Educación Pública">
+    </a>
+
+    <a class="pleca-link pleca-link--chiapas" href="https://www.chiapas.gob.mx/" target="_blank" rel="noopener">
+      <img src="assets/img/Coat_of_Arms_of_Chiapas_(2026).png" alt="Gobierno del Estado de Chiapas">
+    </a>
+
+    <a class="pleca-link pleca-link--tecnm" href="https://www.tecnm.mx/" target="_blank" rel="noopener">
+      <img src="assets/img/TecNacional.png" alt="Tecnológico Nacional de México">
+    </a>
+
+    <a class="pleca-link pleca-link--instituto" href="index.html">
+      <img src="assets/img/TecCinta.png" alt="Instituto Tecnológico Superior de Cintalapa">
+    </a>
+  </div>
+</div>
+
+      <button class="nav-toggle" type="button"
+  aria-label="Abrir menú"
+  aria-controls="site-menu"
+  aria-expanded="false">
+  <span class="nav-toggle__bar" aria-hidden="true"></span>
+  <span class="nav-toggle__bar" aria-hidden="true"></span>
+  <span class="nav-toggle__bar" aria-hidden="true"></span>
+</button>
+
+<div class="header-top-bar">
+<div class="header-search">
+  <form
+    class="search search--header"
+    id="siteSearchForm"
+    action="#"
+    method="get"
+    aria-label="Búsqueda en el sitio"
+  >
+    <label class="sr-only" for="siteSearchInput">Buscar</label>
+    <input
+      id="siteSearchInput"
+      name="q"
+      type="search"
+      placeholder="Buscar"
+      autocomplete="off"
+    />
+    <button class="search-btn" type="submit" aria-label="Buscar">
+      <span aria-hidden="true">🔍</span>
+    </button>
+  </form>
+
+  <div
+    id="siteSearchResults"
+    class="search-results"
+    aria-live="polite"
+    aria-label="Resultados de búsqueda"
+    hidden
+  ></div>
+</div>
+
+  <div class="header-tools" aria-label="Accesibilidad y accesos rápidos">
+    <div class="header-icons" aria-label="Enlaces rápidos institucionales">
+      <a class="tool-icon"
+         href="PON_AQUI_LINK_TEAMS"
+         target="_blank"
+         rel="noopener"
+         title="Microsoft Teams"
+         aria-label="Microsoft Teams">
+        <img src="assets/img/microsoft_teams.png" alt="Microsoft Teams" />
+      </a>
+
+      <a class="tool-icon"
+         href="PON_AQUI_LINK_CORREO"
+         target="_blank"
+         rel="noopener"
+         title="Correo institucional"
+         aria-label="Correo institucional">
+        <img src="assets/img/correo-icono.png" alt="Correo institucional" />
+      </a>
+
+      <a class="tool-icon"
+         href="PON_AQUI_LINK_CALENDARIO"
+         target="_blank"
+         rel="noopener"
+         title="Calendario académico"
+         aria-label="Calendario académico">
+        <img src="assets/img/calendario-icono.png" alt="Calendario académico" />
+      </a>
+    </div>
+
+    <div class="header-languages" aria-label="Selector de idioma">
+      <a class="lang-btn" href="#" data-lang="zh-CN" title="Mandarín" aria-label="Traducir a mandarín">
+        <img src="assets/img/china-icono.png" alt="Mandarín" />
+      </a>
+
+      <a class="lang-btn" href="#" data-lang="en" title="Inglés" aria-label="Traducir a inglés">
+        <img src="assets/img/usa-icono.png" alt="Inglés" />
+      </a>
+
+      <a class="lang-btn" href="#" data-lang="fr" title="Francés" aria-label="Traducir a francés">
+        <img src="assets/img/francia-icono.png" alt="Francés" />
+      </a>
+
+      <a class="lang-btn" href="#" data-lang="es" title="Español" aria-label="Restablecer a español">
+        <img src="assets/img/mexico-icono.png" alt="Español" />
+      </a>
+    </div>
+
+    <div class="header-accessibility" aria-label="Opciones de accesibilidad">
+      <button class="acc-btn acc-btn--icon" type="button" data-action="contrast" title="Invertir colores" aria-label="Invertir colores">
+        ◐
+      </button>
+      <button class="acc-btn" type="button" data-action="increase-font" title="Aumentar letra" aria-label="Aumentar letra">
+        A+
+      </button>
+      <button class="acc-btn" type="button" data-action="decrease-font" title="Disminuir letra" aria-label="Disminuir letra">
+        A-
+      </button>
+      <button class="acc-btn" type="button" data-action="reset-font" title="Restablecer tamaño" aria-label="Restablecer tamaño">
+        A
+      </button>
+    </div>
+
+    <div id="google_translate_element" class="translate-holder" aria-hidden="true"></div>
+  </div>
+</div>
+    </div>
+
+    <nav class="site-nav" aria-label="Menú principal" id="site-menu">
+      <div class="container nav-inner">
+<ul class="nav-list nav-list--dropdown">
+  <li>
+    <a class="nav-link" href="index.html" data-nav-link="inicio">Inicio</a>
+  </li>
+
+  <li class="nav-item">
+    <details class="nav-dd">
+      <summary class="nav-link nav-link--dd" data-nav="conocenos">Conócenos</summary>
+      <div class="nav-panel" role="menu">
+        <a role="menuitem" href="pages/institucion.html#mv">Misión y visión</a>
+        <a role="menuitem" href="pages/institucion.html#campus">Campus</a>
+        <a role="menuitem" href="pages/institucion.html#historia">Historia</a>
+        <a role="menuitem" href="pages/institucion.html#directorio">Directorio</a>
+        <a role="menuitem" href="pages/institucion.html#organigrama">Organigrama</a>
+        <a role="menuitem" href="pages/institucion.html#marco">Marco normativo</a>
+      </div>
+    </details>
+  </li>
+
+  <li class="nav-item">
+    <details class="nav-dd">
+      <summary class="nav-link nav-link--dd" data-nav="admision">Admisión</summary>
+      <div class="nav-panel" role="menu">
+        <a role="menuitem" href="pages/aspirantes.html#requisitos">Requisitos</a>
+        <a role="menuitem" href="pages/aspirantes.html#proceso">Proceso</a>
+        <a role="menuitem" href="pages/aspirantes.html#fechas">Fechas</a>
+        <a role="menuitem" href="pages/aspirantes.html#costos">Costos</a>
+        <a role="menuitem" href="pages/aspirantes.html#preguntas">Preguntas frecuentes</a>
+      </div>
+    </details>
+  </li>
+
+  <li>
+    <a class="nav-link" href="pages/oferta.html" data-nav-link="oferta">Oferta Educativa</a>
+  </li>
+
+  <li class="nav-item">
+    <details class="nav-dd">
+      <summary class="nav-link nav-link--dd" data-nav="docentes">Docentes</summary>
+      <div class="nav-panel" role="menu">
+        <a role="menuitem" href="pages/Docentes.html">Avisos</a>
+        <a role="menuitem" href="pages/Docentes.html">Formatos</a>
+        <a role="menuitem" href="pages/Docentes.html">Directorio</a>
+      </div>
+    </details>
+  </li>
+
+  <li class="nav-item">
+    <details class="nav-dd">
+      <summary class="nav-link nav-link--dd" data-nav="alumnos">Alumnos</summary>
+      <div class="nav-panel" role="menu">
+        <a role="menuitem" href="pages/alumnos.html#tramites">Trámites</a>
+        <a role="menuitem" href="pages/alumnos.html#servicios">Servicios escolares</a>
+        <a role="menuitem" href="pages/alumnos.html#calendario">Calendario</a>
+        <a role="menuitem" href="pages/alumnos.html#becas">Becas</a>
+      </div>
+    </details>
+  </li>
+
+  <li class="nav-item">
+    <details class="nav-dd">
+      <summary class="nav-link nav-link--dd" data-nav="vinculacion">Vinculación</summary>
+      <div class="nav-panel" role="menu">
+        <a role="menuitem" href="pages/vinculacion.html#servicio">Servicio social</a>
+        <a role="menuitem" href="pages/vinculacion.html#residencia">Residencia profesional</a>
+        <a role="menuitem" href="pages/vinculacion.html#convenios">Convenios</a>
+        <a role="menuitem" href="pages/vinculacion.html#bolsa">Bolsa de trabajo</a>
+      </div>
+    </details>
+  </li>
+
+  <li>
+    <a class="nav-link" href="pages/contacto.html" data-nav-link="contacto">Contacto</a>
+  </li>
+</ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido" class="site-main" role="main">
+    <!-- Hero / Portada -->
+    <section class="hero" aria-label="Portada">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Bienvenido al Tecnológico Nacional de México Campus Cintalapa</h1>
+          <p>
+            Información institucional, trámites, avisos y servicios para aspirantes, estudiantes y comunidad.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="pages/oferta.html">Ver oferta educativa</a>
+            <a class="btn btn-outline" href="pages/aspirantes.html">Información para aspirantes</a>
+          </div>
+
+  <ul class="quick-links" aria-label="Accesos rápidos">
+    <li><a class="chip" href="pages/alumnos.html#tramites">Trámites y formatos</a></li>
+    <li><a class="chip" href="pages/alumnos.html#becas">Becas</a></li>
+    <li><a class="chip" href="pages/alumnos.html#calendario">Calendario académico</a></li>
+    <li><a class="chip" href="pages/institucion.html#marco">Marco normativo</a></li>
+  </ul>
+
+        </div>
+
+<div class="hero-media" aria-label="Carrusel de avisos destacados">
+  <section class="carousel" aria-roledescription="carousel">
+    <!-- Controles (radios invisibles) -->
+    <input class="carousel__input" type="radio" name="carousel" id="slide-1" checked>
+    <input class="carousel__input" type="radio" name="carousel" id="slide-2">
+    <input class="carousel__input" type="radio" name="carousel" id="slide-3">
+    <input class="carousel__input" type="radio" name="carousel" id="slide-4">
+    <input class="carousel__input" type="radio" name="carousel" id="slide-5">
+
+    <!-- Slides -->
+    <div class="carousel__viewport">
+      <div class="carousel__track">
+<article class="carousel__slide" data-slide="1">
+  <a class="carousel__img" href="#" data-banner-link aria-label="Banner 1">
+    <img class="carousel__photo" data-banner-img alt="Banner 1" loading="lazy"
+      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='450'%3E%3Crect width='100%25' height='100%25' fill='%23f1f5f9'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%236b7280' font-size='38' font-family='Arial'%3EBanner%201%20pendiente%3C/text%3E%3C/svg%3E">
+  </a>
+</article>
+
+<article class="carousel__slide" data-slide="2">
+  <a class="carousel__img" href="#" data-banner-link aria-label="Banner 2">
+    <img class="carousel__photo" data-banner-img alt="Banner 2" loading="lazy"
+      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='450'%3E%3Crect width='100%25' height='100%25' fill='%23f1f5f9'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%236b7280' font-size='38' font-family='Arial'%3EBanner%202%20pendiente%3C/text%3E%3C/svg%3E">
+  </a>
+</article>
+
+<article class="carousel__slide" data-slide="3">
+  <a class="carousel__img" href="#" data-banner-link aria-label="Banner 3">
+    <img class="carousel__photo" data-banner-img alt="Banner 3" loading="lazy"
+      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='450'%3E%3Crect width='100%25' height='100%25' fill='%23f1f5f9'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%236b7280' font-size='38' font-family='Arial'%3EBanner%203%20pendiente%3C/text%3E%3C/svg%3E">
+  </a>
+</article>
+
+<article class="carousel__slide" data-slide="4">
+  <a class="carousel__img" href="#" data-banner-link aria-label="Banner 4">
+    <img class="carousel__photo" data-banner-img alt="Banner 4" loading="lazy"
+      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='450'%3E%3Crect width='100%25' height='100%25' fill='%23f1f5f9'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%236b7280' font-size='38' font-family='Arial'%3EBanner%204%20pendiente%3C/text%3E%3C/svg%3E">
+  </a>
+</article>
+
+<article class="carousel__slide" data-slide="5">
+  <a class="carousel__img" href="#" data-banner-link aria-label="Banner 5">
+    <img class="carousel__photo" data-banner-img alt="Banner 5" loading="lazy"
+      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='450'%3E%3Crect width='100%25' height='100%25' fill='%23f1f5f9'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%236b7280' font-size='38' font-family='Arial'%3EBanner%205%20pendiente%3C/text%3E%3C/svg%3E">
+  </a>
+</article>
+      </div>
+    </div>
+
+    <!-- Botones/puntos -->
+    <div class="carousel__dots" aria-label="Controles del carrusel">
+      <label class="carousel__dot" for="slide-1" aria-label="Ir a la diapositiva 1"></label>
+      <label class="carousel__dot" for="slide-2" aria-label="Ir a la diapositiva 2"></label>
+      <label class="carousel__dot" for="slide-3" aria-label="Ir a la diapositiva 3"></label>
+      <label class="carousel__dot" for="slide-4" aria-label="Ir a la diapositiva 4"></label>
+      <label class="carousel__dot" for="slide-5" aria-label="Ir a la diapositiva 5"></label>
+    </div>
+  </section>
+</div>
+
+      </div>
+    </section>
+
+    <!-- Noticias / Eventos -->
+    <section class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Noticias y eventos</h2>
+          <p>Actividades académicas, culturales y deportivas.</p>
+        </header>
+
+        <div class="grid cards-3">
+          <article class="card card-wide">
+            <div class="card-badge">Noticia</div>
+            <h3>Título de noticia</h3>
+            <p>Resumen breve de la noticia. (Este contenido se administrará desde el gestor en la implementación.)</p>
+            <a class="card-link" href="pages/institucion.html">Leer</a>
+          </article>
+
+          <article class="card card-wide">
+            <div class="card-badge">Evento</div>
+            <h3>Título de evento</h3>
+            <p>Fecha, lugar y descripción corta del evento. (Contenido de ejemplo.)</p>
+            <a class="card-link" href="pages/institucion.html">Detalles</a>
+          </article>
+
+          <article class="card card-wide">
+            <div class="card-badge">Evento</div>
+            <h3>Título de evento</h3>
+            <p>Fecha, lugar y descripción corta del evento. (Contenido de ejemplo.)</p>
+            <a class="card-link" href="pages/institucion.html">Detalles</a>
+          </article>
+        </div>
+      </div>
+    </section>
+<!-- Sitios de interés -->
+<section class="section section-alt sitios-interes">
+  <div class="container">
+    <header class="section-header">
+      <h2>Sitios de interés</h2>
+      <p>Accesos directos a portales e instituciones vinculadas.</p>
+    </header>
+
+    <div class="interest-links" aria-label="Enlaces a sitios institucionales de interés">
+
+      <a class="interest-link"
+         href="https://www.conricyt.mx/"
+         target="_blank"
+         rel="noopener"
+         aria-label="PON_AQUI_EL_NOMBRE_DEL_SITIO_1">
+        <img src="assets/img/Conricyt.png"
+             alt="Conricyt"
+             loading="lazy">
+      </a>
+
+      <a class="interest-link"
+         href="https://secihti.mx/"
+         target="_blank"
+         rel="noopener"
+         aria-label="PON_AQUI_EL_NOMBRE_DEL_SITIO_2">
+        <img src="assets/img/secihti.png"
+             alt="Secretaría de Ciencia, Humanidades, Tecnología e Innovación"
+             loading="lazy">
+      </a>
+
+      <a class="interest-link"
+         href="https://www.plataformadetransparencia.org.mx/Inicio"
+         target="_blank"
+         rel="noopener"
+         aria-label="PON_AQUI_EL_NOMBRE_DEL_SITIO_3">
+        <img src="assets/img/Transparencia.png"
+             alt="plataforma nacional de transparencia"
+             loading="lazy">
+      </a>
+
+      <a class="interest-link"
+         href="PON_AQUI_EL_LINK_4"
+         target="_blank"
+         rel="noopener"
+         aria-label="PON_AQUI_EL_NOMBRE_DEL_SITIO_4">
+        <img src="PON_AQUI_LA_IMAGEN_4"
+             alt="PON_AQUI_EL_NOMBRE_DEL_SITIO_4"
+             loading="lazy">
+      </a>
+
+      <a class="interest-link"
+         href="PON_AQUI_EL_LINK_5"
+         target="_blank"
+         rel="noopener"
+         aria-label="PON_AQUI_EL_NOMBRE_DEL_SITIO_5">
+        <img src="PON_AQUI_LA_IMAGEN_5"
+             alt="PON_AQUI_EL_NOMBRE_DEL_SITIO_5"
+             loading="lazy">
+      </a>
+
+      <a class="interest-link"
+         href="PON_AQUI_EL_LINK_6"
+         target="_blank"
+         rel="noopener"
+         aria-label="PON_AQUI_EL_NOMBRE_DEL_SITIO_6">
+        <img src="PON_AQUI_LA_IMAGEN_6"
+             alt="PON_AQUI_EL_NOMBRE_DEL_SITIO_6"
+             loading="lazy">
+      </a>
+
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+
+            <section>
+        <h2 class="footer-title">Contacto</h2>
+        <p><strong>Dirección</strong>
+                    <br>
+                    Carretera Panamericana Km. 995 C.P. 30400 Cintalapa, Chiapas. 
+                     C.P. 30400
+                    <br><strong>Contacto</strong>&nbsp;<br>
+                    Conmutador:  (968) 68 4 47 79 </p>
+        <p>Teléfono (pendiente) • Correo (pendiente)</p>
+      </section>
+
+      <section>
+        <h2 class="footer-title">Enlaces</h2>
+        <ul class="footer-links">
+          <li><a href="pages/institucion.html">Institución</a></li>
+          <li><a href="pages/oferta.html">Oferta educativa</a></li>
+          <li><a href="pages/contacto.html">Contacto</a></li>
+        </ul>
+      </section>
+
+      <section>
+       <aside class="footer-media" aria-label="Ubicación del Instituto en Google Maps">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3822.1630320516947!2d-93.7435155!3d16.6687232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85eb57e1d27544a9%3A0x69e5f6be7f313284!2sInstituto%20Tecnol%C3%B3gico%20Superior%20de%20Cintalapa!5e0!3m2!1ses-419!2smx!4v1772683940090!5m2!1ses-419!2smx"
+   width="600"
+    height="450"
+     style="border:0;"
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <a class="footer-map-open"
+     href="https://maps.google.com/?cid=7630776441687323268&hl=es-419&gl=MX"
+     target="_blank" rel="noopener">
+    Abrir en Google Maps
+  </a>
+</aside>
+      </section>
+    </div>
+
+    <div class="container footer-bottom">
+      <small>© <span>2026</span> Instituto Tecnológico Superior de Cintalapa. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+  <div id="footer2-7"></div>
+  <aside class="social-widget" aria-label="Redes sociales institucionales">
+  <a
+    class="social-widget__item social-widget__item--facebook"
+    href="https://www.facebook.com/TecNMCintalapa"
+    target="_blank"
+    rel="noopener"
+    aria-label="Me gusta en Facebook"
+  >
+    <span class="social-widget__icon" aria-hidden="true">f</span>
+    <span class="social-widget__label">Me gusta en Facebook</span>
+  </a>
+
+  <a
+    class="social-widget__item social-widget__item--x"
+    href="https://x.com/TecNMCintalapa"
+    target="_blank"
+    rel="noopener"
+    aria-label="Síguenos en X"
+  >
+    <span class="social-widget__icon" aria-hidden="true">X</span>
+    <span class="social-widget__label">Síguenos en X</span>
+  </a>
+
+  <a
+    class="social-widget__item social-widget__item--youtube"
+    href="https://www.youtube.com/@tecnmcampuscintalapa2809"
+    target="_blank"
+    rel="noopener"
+    aria-label="Suscríbete en YouTube"
+  >
+    <span class="social-widget__icon" aria-hidden="true">▶</span>
+    <span class="social-widget__label">Suscríbete en YouTube</span>
+  </a>
+</aside>
+  <script
+  src="https://cdn.tecnm.mx/files/main/Framework/gobmx-integration.js"
+  data-tecnm-header="#barraGobmx"
+  data-tecnm-footer="#footer2-7"
+></script>
+<script src="https://framework-gb.cdn.gob.mx/gobmx.js" defer></script>
+  <script src="public/js/main.js"></script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
